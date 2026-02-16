@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Exe6 {
@@ -11,7 +10,7 @@ public class Exe6 {
 		Scanner teclado = new Scanner(System.in);
 		System.out.print("Digite o seu nome: ");
 		nome = teclado.next();
-		System.out.print("Digite a metros: ");
+		System.out.print("Digite os metros: ");
 		metros = teclado.nextFloat();
 		System.out.print("Digite o Kg: ");
 		Kg = teclado.nextFloat();
