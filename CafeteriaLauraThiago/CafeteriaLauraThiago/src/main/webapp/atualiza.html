@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cafeteria - Atualizar</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<h2>Atualizar Item do Cardápio</h2>
+	<form name="fAtualiza" method="post" action="AtualizaServlet">
+		<h3>Dados Atuais:</h3>
+		<p>
+			Nome Atual: <input type="text" name="txNomeA" required>
+		</p>
+		<p>
+			Preço Atual: <input type="number" step="0.01" name="txPrecoA" required>
+		</p>
+		<br>
+		<h3>Novos Dados:</h3>
+		<p>
+			Novo Nome: <input type="text" name="txNomeN" required>
+		</p>
+		<p>
+			Novo Preço: <input type="number" step="0.01" name="txPrecoN" required>
+		</p>
+		<p>
+			<input type="submit" value="Atualizar">
+		</p>
+		<p>
+			<a href="index.html" class="btn-voltar">Voltar ao Menu</a>
+		</p>
+	</form>
+</body>
+</html>

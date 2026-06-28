@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cafeteria - Buscar</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<h2>Buscar Item no Cardápio</h2>
+	<form name="fBusca" method="post" action="BuscaServlet">
+		<p>
+			Nome do Produto: <input type="text" name="txNome" required>
+		</p>
+		<p>
+			Preço Cadastrado: <input type="number" step="0.01" name="txPreco" required>
+		</p>
+		<p>
+			<input type="submit" value="Buscar">
+		</p>
+		<p>
+			<a href="index.html" class="btn-voltar">Voltar ao Menu</a>
+		</p>
+	</form>
+</body>
+</html>
